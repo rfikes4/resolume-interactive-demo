@@ -1,0 +1,30 @@
+{
+  "name": "resolume-interactive-demo",
+  "version": "1.0.0",
+  "description": "An interactive demo showcasing Resolume's features through a shared canvas using socket.io and p5.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfikes4/resolume-interactive-demo.git"
+  },
+  "keywords": [
+    "socket.io",
+    "p5.js",
+    "node.js",
+    "resolume"
+  ],
+  "author": "Robert Fikes IV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfikes4/resolume-interactive-demo/issues"
+  },
+  "homepage": "https://github.com/rfikes4/resolume-interactive-demo#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.0"
+  }
+}
